@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Jakarta-Light';
+  src: url('../src/assets/fonts/Jakarta/PlusJakartaSans-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Jakarta-Regular';
+  src: url('../src/assets/fonts/Jakarta/PlusJakartaSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Jakarta-Medium';
+  src: url('../src/assets/fonts/Jakarta/PlusJakartaSans-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Jakarta-Bold';
+  src: url('../src/assets/fonts/Jakarta/PlusJakartaSans-Bold.ttf');
+}
+
+.leaflet-container {
+  position: relative;
+  margin: auto;
+  height: 50vh;
+  width: 50%;
+}
+
+.leaflet-pane {
+  z-index: 400;
+}
+
